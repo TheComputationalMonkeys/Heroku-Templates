@@ -1,18 +1,13 @@
 # Byte-compiled / optimized / DLL files
-main_site/__pycache__/
-main_site/migrations/__pycache__/
-main_site/templatetags/__pycache__/
-main_site/settings/__pycache__/
-main_site/tests/__pycache__/
-main_site/static/main_site/python/utilities/__pycache__/
+__pycache__/
 *.py[cod]
 *$py.class
 # C extensions
 *.so
 # local key
-main_references/
+#
 # collected static files
-main_static/
+#
 # Text backup files
 *.bak
 # Database
