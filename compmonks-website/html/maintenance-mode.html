@@ -1,101 +1,120 @@
 
-<!doctype html> <html> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name=viewport> <title>Offline for maintenance | The Computational Monkeys </title> <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> <style>html, body {
-  font-family: sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  background-color: #F7F8FB;
-  height: 100%;
-  -webkit-font-smoothing: antialiased; }
+<!doctype html>
+<html> 
+  <head> 
+    <meta charset=utf-8> 
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name=viewport> 
+    <title>Offline for maintenance | The Computational Monkeys </title> 
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"> 
+    <style>
+      html, body {
+        font-family: sans-serif;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+        background-color: #F7F8FB;
+        height: 100%;
+        -webkit-font-smoothing: antialiased; 
+      }
+      body {
+        background-image: url('maintenance-background.gif');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-attachment: fixed;
+        filter: grayscale(100%)contrast(1.2);
 
-body {
-  background-image: url('maintenance-background.gif');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-attachment: fixed;
-  filter: grayscale(100%)contrast(1.2);
-
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
-
-.message {
-  text-align: center;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px 20px;
-  max-width: 450px; }
-
-.message__title {
-  font-size: 22px;
-  font-weight: 100;
-  margin-top: 15px;
-  color: #FFFFFF;
-  margin-bottom: 8px; }
-
-p {
-  -webkit-margin-after: 0px;
-  -webkit-margin-before: 0px;
-  font-size: 15px;
-  color: #7F828B;
-  line-height: 21px;
-  margin-bottom: 4px; }
-
-.btn {
-  text-decoration: none;
-  padding: 8px 15px;
-  border-radius: 4px;
-  margin-top: 10px;
-  font-size: 14px;
-  color: #7F828B;
-  border: 1px solid #7F828B; }
-
-.hk-logo, .app-icon {
-  fill: #DBE1EC; }
-
-.info {
-  fill: #9FABBC; }
-
-body.friendly {
-  background: -webkit-linear-gradient(-45deg, #8363a1 0%, #74a8c3 100%);
-  background: linear-gradient(135deg, #8363a1 0%, #74a8c3 100%); }
-
-body.friendly .message__title {
-  color: #fff; }
-
-body.friendly p {
-  color: rgba(255, 255, 255, 0.6); }
-
-body.friendly .hk-logo, body.friendly .app-icon {
-  fill: rgba(255, 255, 255, 0.9); }
-
-body.friendly .info {
-  fill: rgba(255, 255, 255, 0.9); }
-
-body.friendly .btn {
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.9); }
-
-.info_area {
-  position: fixed;
-  right: 12px;
-  bottom: 12px; }
-
-.logo {
-  position: fixed;
-  left: 12px;
-  bottom: 12px; }
-</style> <base target=_parent /> </head> <body> <div class=spacer></div> <div class=message>  <div class=message__title> Back soon! </div> <p> The site is undergoing maintenance right now. </p> <p> We will be back shortly. </p> </div> <div class=logo> <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-   viewBox="0 0 1616.4 1616.4" enable-background="new 0 0 1616.4 1616.4" xml:space="preserve">
-  <path d="M778.1,10.8L778.1,10.8c311,0,563.2,252.1,563.2,563.2v246.9c66.8,0.3,120.8,54.5,120.8,121.3V1119
-    c0,66.7-54.1,120.9-120.9,120.9h-34.6l-0.1,0.2c-79.3,214.9-286,368.1-528.5,368.1H778c-242.5,0-449.2-153.2-528.5-368.1l-0.1-0.2
-    h-34.6c-66.7,0-120.9-54.1-120.9-120.9V942.2c0-66.8,54-121.1,120.8-121.3V574C214.8,263,466.9,10.8,778,10.8l0,0"/>
-  <path fill="#FFFFFF" d="M778,1559.2L778,1559.2c279.7,0,506.3-226.7,506.3-506.3l-0.2-102.4c0-103.3,0-103.3-103.4-103.3H375.4
-    c-103.4,0-103.4,0-103.4,103.3l-0.2,102.4c0,279.7,226.7,506.3,506.3,506.3l0,0"/>
-</svg> </div> </body> </html>
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+      }
+      .message {
+        text-align: center;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 20px;
+        max-width: 450px; 
+      }
+      .message__title {
+        font-size: 22px;
+        font-weight: 100;
+        margin-top: 15px;
+        color: #FFFFFF;
+        margin-bottom: 8px; 
+      }
+      p {
+        -webkit-margin-after: 0px;
+        -webkit-margin-before: 0px;
+        font-size: 15px;
+        color: #7F828B;
+        line-height: 21px;
+        margin-bottom: 4px; 
+      }
+      .btn {
+        text-decoration: none;
+        padding: 8px 15px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #7F828B;
+        border: 1px solid #7F828B; 
+      }
+      .hk-logo, .app-icon {
+        fill: #DBE1EC; 
+      }
+      .info {
+        fill: #9FABBC; 
+      }
+      body.friendly {
+        background: -webkit-linear-gradient(-45deg, #8363a1 0%, #74a8c3 100%);
+        background: linear-gradient(135deg, #8363a1 0%, #74a8c3 100%); 
+      }
+      body.friendly .message__title {
+        color: #fff; 
+      }
+      body.friendly p {
+        color: rgba(255, 255, 255, 0.6); 
+      }
+      body.friendly .hk-logo, body.friendly .app-icon {
+        fill: rgba(255, 255, 255, 0.9); 
+      }
+      body.friendly .info {
+        fill: rgba(255, 255, 255, 0.9); 
+      }
+      body.friendly .btn {
+        color: #fff;
+        border: 1px solid rgba(255, 255, 255, 0.9); 
+      }
+      .info_area {
+        position: fixed;
+        right: 12px;
+        bottom: 12px; 
+      }
+      .logo {
+        position: fixed;
+        left: 12px;
+        bottom: 12px; 
+      }
+    </style> 
+    <base target=_parent /> 
+  </head> 
+  <body> 
+    <div class=spacer></div> 
+    <div class=message>  
+      <div class=message__title> Back soon! </div> 
+      <p> The site is undergoing maintenance right now. </p> 
+      <p> We will be back shortly. </p> 
+    </div> 
+    <div class=logo> 
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1616.4 1616.4" enable-background="new 0 0 1616.4 1616.4" xml:space="preserve"><path d="M778.1,10.8L778.1,10.8c311,0,563.2,252.1,563.2,563.2v246.9c66.8,0.3,120.8,54.5,120.8,121.3V1119
+      c0,66.7-54.1,120.9-120.9,120.9h-34.6l-0.1,0.2c-79.3,214.9-286,368.1-528.5,368.1H778c-242.5,0-449.2-153.2-528.5-368.1l-0.1-0.2
+      h-34.6c-66.7,0-120.9-54.1-120.9-120.9V942.2c0-66.8,54-121.1,120.8-121.3V574C214.8,263,466.9,10.8,778,10.8l0,0"/><path fill="#FFFFFF" d="M778,1559.2L778,1559.2c279.7,0,506.3-226.7,506.3-506.3l-0.2-102.4c0-103.3,0-103.3-103.4-103.3H375.4
+      c-103.4,0-103.4,0-103.4,103.3l-0.2,102.4c0,279.7,226.7,506.3,506.3,506.3l0,0"/></svg>
+    </div>
+  </body>
+</html>
